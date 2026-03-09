@@ -82,12 +82,12 @@ const ScanProofSection = () => {
                         alt="Patient with scan results" 
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-xl">
-                        <p className="text-sm font-medium text-foreground italic">
-                            "Seeing the 'No More Fibroids' on my report was the best day of my life. My family is finally at peace."
-                        </p>
-                        <div className="mt-2 text-xs font-bold text-primary">— Aisha O., Lagos</div>
-                    </div>
+                </div>
+                <div className="mt-6 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-md border border-border/50">
+                    <p className="text-sm font-medium text-foreground italic">
+                        "Seeing the 'No More Fibroids' on my report was the best day of my life. My family is finally at peace."
+                    </p>
+                    <div className="mt-2 text-xs font-bold text-primary">— Aisha O., Lagos</div>
                 </div>
             </motion.div>
         </div>

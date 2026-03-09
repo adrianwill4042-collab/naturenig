@@ -19,6 +19,7 @@ const Index = () => {
   return (
     <div className="min-h-screen pb-16 md:pb-0">
       <UrgencyBanner />
+      <SocialProofSection />
       <HeroSection />
       
       <StoryBridge text="But for too many Nigerian women, the search for relief feels like a never-ending cycle of disappointment..." />
@@ -31,7 +32,6 @@ const Index = () => {
       
       <StoryBridge text="The results aren't just medical reports—they are lives transformed, families restored, and futures reclaimed. We let the medical scans and real patient feedback speak for us." />
       
-      <SocialProofSection />
       <ScanProofSection />
       
       <StoryBridge text="Visual and medical proof is essential—because you deserves more than just promises; you deserve verified results that you can see for yourself." />

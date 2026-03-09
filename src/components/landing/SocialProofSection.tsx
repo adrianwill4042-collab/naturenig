@@ -71,37 +71,29 @@ const SocialProofSection = () => {
           </h2>
           <p className="mt-4 text-muted-foreground">(Watch real results from real users)</p>
           
-          <div className="mt-10 max-w-4xl mx-auto">
-            <Dialog>
-              <DialogTrigger asChild>
-                <div className="relative rounded-3xl overflow-hidden shadow-2xl group cursor-pointer">
-                  <img 
-                    src="https://fibroidtreatment.xyz/img/testi.webp" 
-                    alt="Testimonial Montage Thumbnail" 
-                    className="w-full aspect-video object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center transition-colors group-hover:bg-black/20">
-                    <PlayCircle className="w-20 h-20 text-white fill-primary stroke-white group-hover:scale-110 transition-transform" />
-                  </div>
-                  <div className="absolute bottom-6 left-6 text-left">
-                    <div className="bg-primary px-3 py-1 rounded-full text-xs font-bold text-white mb-2 inline-block">VIDEO TESTIMONIAL</div>
-                    <h3 className="text-white text-xl font-bold shadow-black drop-shadow-lg">Real Stories of Recovery</h3>
-                  </div>
+          <div className="mt-10 max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+            <div className="aspect-[9/16] md:aspect-video w-full bg-black relative">
+              <video 
+                controls 
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-contain"
+              >
+                <source src={proofVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="absolute top-4 left-4 z-10">
+                <div className="bg-primary/90 backdrop-blur-sm px-4 py-1.5 rounded-full text-xs font-black text-white shadow-lg flex items-center gap-2">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+                  </span>
+                  WATCH REAL TESTIMONY
                 </div>
-              </DialogTrigger>
-              <DialogContent className="max-w-4xl p-2 md:p-4 overflow-hidden bg-zinc-950 border-white/10 shadow-2xl">
-                <div className="aspect-[9/16] md:aspect-video w-full rounded-2xl overflow-hidden bg-black flex items-center justify-center">
-                  <video 
-                    controls 
-                    autoPlay
-                    className="w-full h-full object-contain"
-                  >
-                    <source src={proofVideo} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-              </DialogContent>
-            </Dialog>
+              </div>
+            </div>
           </div>
         </motion.div>
 

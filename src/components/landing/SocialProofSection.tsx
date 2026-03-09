@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 import proofVideo from "@/assets/proof_video.mp4";
 import physicalProof from "@/assets/before-fib.jpg";
-import proof1 from "@/assets/proof1.jpeg";
-import proof2 from "@/assets/proof2.jpeg";
-import proof5 from "@/assets/proof5.jpeg";
-import proof6 from "@/assets/proof6.jpeg";
+import avatar1 from "@/assets/avatar1.jpg";
+import avatar2 from "@/assets/avatar2.jpg";
+import avatar3 from "@/assets/avatar3.jpg";
+import avatar4 from "@/assets/avatar4.jpg";
 
 const testimonials = [
   {
@@ -13,7 +13,7 @@ const testimonials = [
     name: "Blessing A.",
     location: "Lagos, Nigeria",
     rating: 5,
-    image: proof1
+    image: avatar1
   },
 
   {
@@ -21,21 +21,21 @@ const testimonials = [
     name: "Ifunanya O.",
     location: "Enugu, Nigeria",
     rating: 5,
-    image: proof2
+    image: avatar2
   },
   {
     text: "For years, nothing happened. My cycle was irregular and I kept hearing ‘wait’. After treating the fibroid properly, my cycle became normal again. A few months later, I conceived.",
     name: "Chiamaka N.",
     location: "Owerri, Nigeria",
     rating: 5,
-    image: proof5
+    image: avatar3
   },
   {
     text: "I completed the protocol months ago. I’m not on any drug now. No pain. No heavy bleeding. Most importantly, the fibroid did not come back. I finally feel at peace in my body.",
     name: "Ronke T.",
     location: "Ibadan, Nigeria",
     rating: 5,
-    image: proof6
+    image: avatar4
   },
 ];
 
@@ -51,9 +51,9 @@ const SocialProofSection = () => {
           className="text-center mb-10 lg:mb-16"
         >
           <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground">
-            Watch Nigerian Women Share Their Experience
+            How Nigerian Women Are Shrinking Fibroids Naturally Without Surgery
           </h2>
-          <p className="mt-4 text-muted-foreground">(Watch real results from real users)</p>
+          <p className="mt-4 text-muted-foreground font-bold">Real scans • Real testimonies • Real results</p>
           
           <div className="mt-10 max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
             <div className="aspect-[9/16] md:aspect-video w-full bg-black relative">

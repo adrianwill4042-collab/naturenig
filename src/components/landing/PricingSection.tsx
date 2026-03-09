@@ -10,7 +10,7 @@ const valueStack = [
 
 const PricingSection = () => {
   return (
-    <section className="bg-card py-16 md:py-24 relative overflow-hidden">
+    <section className="bg-card py-10 md:py-24 relative overflow-hidden">
       {/* Decorative bg */}
       <div className="absolute top-0 left-0 w-full h-1/2 bg-primary/5 -skew-y-6 -translate-y-24" />
       
@@ -19,7 +19,7 @@ const PricingSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-10 lg:mb-16"
         >
           <span className="text-sm font-black uppercase tracking-widest text-primary/60">YOUR INVESTMENT</span>
           <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold text-foreground">
@@ -27,7 +27,7 @@ const PricingSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-stretch">
+        <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-stretch">
           {/* SECTION 10 - VALUE STACK */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -56,7 +56,7 @@ const PricingSection = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ type: "spring", stiffness: 100 }}
-            className="bg-primary rounded-[2.5rem] p-10 md:p-12 text-primary-foreground shadow-2xl relative overflow-hidden flex flex-col justify-center border-4 border-white/20"
+            className="bg-primary rounded-[2.5rem] p-6 sm:p-10 md:p-12 text-primary-foreground shadow-2xl relative overflow-hidden flex flex-col justify-center border-4 border-white/20"
           >
             <div className="absolute top-6 right-6 rotate-12">
               <Star className="w-16 h-16 text-yellow-400 fill-current opacity-20" />

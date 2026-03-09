@@ -84,7 +84,7 @@ const OrderFormSection = () => {
   }
 
   return (
-    <section id="order-form" className="bg-background py-16 md:py-24 pb-24 md:pb-24">
+    <section id="order-form" className="bg-background py-10 md:py-24">
       <div className="container mx-auto px-4 max-w-xl">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-center mb-8">
           <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground">Order Utero Clear</h2>

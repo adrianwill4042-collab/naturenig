@@ -9,6 +9,7 @@ import PricingSection from "@/components/landing/PricingSection";
 import OrderFormSection from "@/components/landing/OrderFormSection";
 import FAQSection from "@/components/landing/FAQSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
+import WhatsAppFeedback from "@/components/landing/WhatsAppFeedback";
 import StickyBar from "@/components/landing/StickyBar";
 import FloatingWhatsApp from "@/components/landing/FloatingWhatsApp";
 import ExitIntentPopup from "@/components/landing/ExitIntentPopup";
@@ -42,6 +43,7 @@ const Index = () => {
       <OrderFormSection />
       <FAQSection />
       <FinalCTASection />
+      <WhatsAppFeedback />
       <StickyBar />
       <FloatingWhatsApp />
       <ExitIntentPopup />

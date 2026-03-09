@@ -6,13 +6,13 @@ import patientProof from "@/assets/proof4.jpeg";
 
 const ScanProofSection = () => {
   return (
-    <section className="bg-muted/30 py-16 md:py-24">
+    <section className="bg-muted/30 py-10 md:py-24">
       <div className="container mx-auto px-4 max-w-6xl">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-10 lg:mb-16"
         >
           <span className="text-sm font-semibold uppercase tracking-wider text-primary">MEDICAL PROOF & SCANS</span>
           <h2 className="mt-2 font-display text-3xl md:text-5xl font-bold text-foreground">

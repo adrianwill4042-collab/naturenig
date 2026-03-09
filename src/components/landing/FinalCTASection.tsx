@@ -3,7 +3,7 @@ import { CheckCircle2, Zap } from "lucide-react";
 
 const FinalCTASection = () => {
   return (
-    <section className="bg-primary py-20 md:py-32 relative overflow-hidden">
+    <section className="bg-primary py-12 md:py-32 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
         <div className="absolute top-10 left-10 w-64 h-64 border-8 border-white rounded-full" />

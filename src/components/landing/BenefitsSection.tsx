@@ -10,7 +10,7 @@ const items = [
 
 const BenefitsSection = () => {
   return (
-    <section className="bg-accent/30 py-16 md:py-24 overflow-hidden relative">
+    <section className="bg-accent/30 py-10 md:py-24 overflow-hidden relative">
       <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
       
       <div className="container mx-auto px-4 max-w-6xl relative z-10">
@@ -18,7 +18,7 @@ const BenefitsSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-10 lg:mb-16"
         >
           <span className="text-sm font-black uppercase tracking-[0.2em] text-primary/60">WHAT YOU RECEIVE</span>
           <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold text-foreground">

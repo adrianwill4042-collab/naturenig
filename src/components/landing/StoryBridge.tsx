@@ -6,7 +6,7 @@ interface StoryBridgeProps {
 
 const StoryBridge = ({ text }: StoryBridgeProps) => {
   return (
-    <div className="bg-background py-10 md:py-16">
+    <div className="bg-background py-10 md:py-16 overflow-hidden">
       <div className="container mx-auto px-4 text-center">
         <motion.div
            initial={{ opacity: 0, y: 10 }}

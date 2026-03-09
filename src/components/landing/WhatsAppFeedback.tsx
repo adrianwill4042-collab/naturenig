@@ -17,7 +17,7 @@ const facebookStyleComments = [
 
 const WhatsAppFeedback = () => {
   return (
-    <section className="bg-muted/30 py-10 md:py-24">
+    <section className="bg-muted/30 py-10 md:py-24 overflow-hidden">
       <div className="container mx-auto px-4 max-w-6xl">
         {/* WhatsApp Proofs */}
         <div className="mb-20">

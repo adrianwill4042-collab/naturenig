@@ -18,7 +18,7 @@ import StoryBridge from "@/components/landing/StoryBridge";
 
 const Index = () => {
   return (
-    <div className="min-h-screen pb-16 md:pb-0">
+    <div className="min-h-screen pb-16 md:pb-0 overflow-x-hidden w-full">
       <UrgencyBanner />
       <SocialProofSection />
       <HeroSection />

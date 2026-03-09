@@ -6,7 +6,7 @@ import patientProof from "@/assets/proof4.jpeg";
 
 const ScanProofSection = () => {
   return (
-    <section className="bg-muted/30 py-10 md:py-24">
+    <section className="bg-muted/30 py-10 md:py-24 overflow-hidden">
       <div className="container mx-auto px-4 max-w-6xl">
         <motion.div
           initial={{ opacity: 0 }}

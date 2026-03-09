@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { Star, Quote, PlayCircle } from "lucide-react";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Star, Quote } from "lucide-react";
 import proofVideo from "@/assets/proof_video.mp4";
 import physicalProof from "@/assets/before-fib.jpg";
 import proof1 from "@/assets/proof1.jpeg";
@@ -114,6 +113,10 @@ const SocialProofSection = () => {
         </div>
 
         {/* Visible Physical Transformation */}
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             className="mb-12 lg:mb-24 text-center"
         >
             <h3 className="font-display text-2xl md:text-3xl font-bold mb-10">Visible Physical Transformation</h3>
